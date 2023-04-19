@@ -1,0 +1,9 @@
+FROM php:7.4-apache
+
+COPY index.html /var/www/html/
+COPY process.php /var/www/html/
+
+RUN apt-get update && apt-get install -y libpq-dev
+RUN docker-php-ext-install pgsql
+
+EXPOSE 80
