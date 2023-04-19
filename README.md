@@ -6,11 +6,15 @@ I created this infrastructure using modules that I wrote myself according to the
 I have a simple web page with two input fields in html and one simple php script that connects to the database.<br>
 When user inserts their data and clicks "Send" button, this data is being sent to the database in private subnet.<br>
 <br>
+
 ![image](https://user-images.githubusercontent.com/114437342/233077896-d6a70872-96c4-42ae-a9cd-230fc501f3b4.png)
-<>br
+
+<br>
 Also, after sending the data, the next page shows all the rows from database. I did it to ensure that everything that is sent to a db is stored there.<br>
 <br>
+
 ![image](https://user-images.githubusercontent.com/114437342/233077982-28154d67-1ec0-42a6-a88b-5aa57679048b.png)
+
 <br>
 
 <h2 align="left">Architecture</h2>
